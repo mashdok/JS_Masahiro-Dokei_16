@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Janken Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+
+  <header id="header" class="header">
+    <div class="wrapper header-wrapper">
+      <img src="img/1.png" alt="ロゴ" class="header__logo">
+      <h1 class="header_name">Janken Game</h1>
+      <nav>
+        <ul class="header__list">
+          <li class="header__item"><a href="#about">About</a></li>
+          <li class="header__item"><a href="#access">Game</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+
+    <section id="about" class="about">
+      <div class="about-subsection">
+        <h3 class="about__title text-center">About</h3>
+        <img src="img/2.gif" alt="じゃんけん画像" class="about__img">
+        <h4 class="about__title2">じゃんけんゲームについて</h4>
+        <p class="about__text">このページは、コンピューターとじゃんけんがたのしめるページです
+          <br>コンピューターの出す手はプログラミングによって自動生成されたものになっております
+          <br>頑張ってコンピューターを打ち負かそう！☺
+        </p>
+        </p>
+      </div>
+
+    </section>
+    
+    <section id="access" class="access">
+      <h3 class="acccess__title text-center">Janken Game</h3>
+
+      <p class="acccess__subtitle">"あなたの選択"欄からあなたが出したい手を選んでください
+        <br>コンピューターの手はあなたが選択後に勝敗の結果とともに表示されます
+      </p>
+      
+      <div class="yours">
+        <p class="game__text">あなたの選択</p>
+        <div class="game__choice">
+          <button onclick="r_click(0); r_click2(0);"><img src="img/3.jpg" alt="グー" id="game__guu" class="game__guu game__option"></button>
+          <button onclick="r_click(1); r_click2(1);"><img src="img/4.jpg" alt="パー" id="game__paa" class="game__paa  game__option"></button>
+          <button onclick="r_click(2); r_click2(2);"><img src="img/5.jpg" alt="チョキ"  id="game__choki" class="game__choki game__option"></button>
+        </div>
+      </div>
+
+      <div class="enemys">
+        <p class="game__text">相手の選択</p>
+        <img src="img/8.jpg" alt="相手の選択" id="game__vsoption" class="game__vsoption"></button>
+      </div>
+
+      <p id="game__result" class="game__result"></p>
+
+    </section>
+    
+  </main> 
+
+  <footer id="footer" class="footer">
+    <p class="copyrights">Janken game</p>
+  </footer>
+
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

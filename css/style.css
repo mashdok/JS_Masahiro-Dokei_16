@@ -1,0 +1,177 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;/*16px×62.5%=10px*/
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    width: 1200px;
+    margin:auto;
+}
+
+.text-center{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+/* Header */
+.header{
+    background-color: #fff;
+}
+
+.header_name{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    margin: 0 0 0 20px;
+    width: 120px;
+    height: auto;
+}
+
+.header__list{
+    display: flex;
+    height: 120px;
+    margin: 0 50px 0 0;
+}
+
+.header__item{
+    margin: auto 100px;
+    text-transform: uppercase;
+}
+
+.header__item>a{
+    color: #222222;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.header__item>a:hover{
+    opacity: 0.6;
+}
+
+/* About */
+.about{
+    padding: 60px 0 30px;
+}
+
+.about__img{
+    display: block;
+    width: 400px;
+    margin: 0 auto 30px;
+}
+.about__title{
+    color: #ad0404;
+    margin: 0 0 30px;
+}
+
+.about__title2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.about__text{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0 0 40px;
+}
+
+.about-subsection{
+    margin: 0 0 80px;
+}
+
+.about__list{
+    display: flex;
+    margin: 0 0 60px;
+}
+
+.about__item{
+    width: 25%;
+}
+
+/* Access */
+
+.access{
+    background-color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0;
+    margin: 0 0 60px;
+}
+
+.acccess__title{
+    margin: 0 0 30px;
+}
+
+.acccess__subtitle{
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.game__text{
+    margin: 20px 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.game__choice{
+    display: flex;  
+    justify-content: space-between;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    align-items: center;
+    padding: 0 0 40px;
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+}
+
+.game__option{
+    height: 100px;
+    width: 100px;
+}
+
+.game__result{
+    display: block;
+    margin: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.game__vsoption{
+    height: 100px;
+}
+
+
+/* Footer⇒DONE */
+
+.footer{
+    background-color: #707070;
+    padding: 30px 0;
+}
+ 
+
+.copyrights{
+    color: #FFF;
+    text-align: center;
+}
